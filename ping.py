@@ -89,12 +89,13 @@ for ip, is_active in results:
         print(f"{ip} is silent...")
 
 
-plt.figure(figsize=(8, 8), facecolor='black')  
+plt.figure(figsize=(6, 6), facecolor='black')  
 ax = plt.gca()
 ax.set_facecolor('black')  
 plt.scatter(*zip(*inactive_ips), c='gray', label="Inactive", marker='s', s=40, alpha=0.6)  
 plt.scatter(*zip(*active_ips), c='lime', label="Active", marker='s', s=40, alpha=0.8)  
-plt.legend(frameon=False, fontsize=12, loc="upper left", facecolor="black", edgecolor="white", labelcolor="white")
+ax.legend(frameon=False, fontsize=10, loc="lower right",
+                    bbox_to_anchor=(1, 0), facecolor="black", edgecolor="white", labelcolor="white")
 plt.title("Hilbert Curve Visualization of Network IPs", color='white')
 plt.grid(color='gray', linestyle='--', linewidth=0.3, alpha=0.4)  
 plt.xticks([])  
