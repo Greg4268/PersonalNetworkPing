@@ -7,7 +7,7 @@ This Python program dynamically detects the user's network and subnet mask, then
 - Scans network for active IP addresses using ping requests
 - Creates visualization using Hilbert curve
 
-## Sample from my home network 
+## 🏠 Sample From My Home Network 
 ![Alt text](./HilbertCurveImg.png)
 
 ## 🚀 Quick Start Guide
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 python ping.py
 ```
 
-## Notes: 
+## 🗒️ Notes: 
 - This program could likely be sped up greatly by adjusting the ping logic
 
-## Special Credit
+## 👏 Special Credit
 This project was inspired by suckerpinch's YouTube video "Harder Drive: Hard drives we didn't want or need" Link: https://www.youtube.com/watch?v=JcJSW7Rprio
 
 
